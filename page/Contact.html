@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="/page/css/cc.css">
+    <link href="/page/JS/contact.js">
+  </head>
+  <body>
+    
+    <nav id="navigateur">
+    <ul>
+      <li><a href="/Home.html">Home</a></li>
+      <li><a href="aboutme.html">About me</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Quiz.html">Quiz</a></li>
+      <li><a href="temoignage.html">temoignage</a></li>
+    </ul>
+    </nav>
+    <header>
+      <h1>Contact Me </h1>
+    </header>
+  </nav>
+  <main>
+      <div id="form-container">
+        <p style="color: white">merci de remplir le formulaire ci-dessous si vous avez des questions  </p>
+    <form id="contact-form" action="submit-form.php" method="post">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+      <label for="subject">Sujet :</label>
+      <input type="text" id="subject" name="subject" required>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="10" required></textarea>
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
+  </main>
+    <footer>
+      <p>All rights reserved to Jawhar CHAABENE</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,465 @@
+/* Navigation Section */
+#navigateur {
+    color: #fff;
+    padding: 0.5em;
+    background-color: #000;
+}
+
+#navigateur ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navigateur li {
+    margin: 0 1em;
+}
+
+#navigateur a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background:url(/images/flamme.jpg) center center/ cover no-repeat fixed;
+    color: #fff;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+/* Parcours Section */
+#parcours {
+    background-color: #000000;
+    padding: 1px;
+}
+
+#parcours ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+main{
+  background: url(/images/njraa-01.png) center center/ cover no-repeat fixed;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: -20px;
+}
+li {
+  /* Add some margin to the list items */
+  margin: 10px;
+  /* Add some styling to the list items */
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+
+#mainhome{
+  width: 100%; /* set the width of the main element to 80% of the parent container */
+    margin: 0 auto; /* center the main element horizontally */
+    display: flex; /* set the main element to display as a flex container */
+    justify-content: center; /* center the child elements within the main element horizontally */
+    align-items: center; /* center the child elements within the main element vertically */
+    flex-wrap: wrap; /* allow the child elements to wrap to the next line if the main element is not wide enough */
+}
+#parcours li {
+    margin: 0 1em;
+}
+
+#parcours a {
+    color: #333;
+    text-decoration: none;
+}
+#parcours_academique img {
+  margin-top: 10px;
+  border: 4px solid rgb(255, 255, 255); /*adds a 2px black border to the images*/
+  padding: 10px; /*adds 10px padding around the images */
+}
+.img-frame{
+  border: 22px solid black; /*adds a 2px black border to the images*/
+  padding: 10px; /*adds 10px padding around the images */
+  border-radius:10px;
+  
+  }
+  #parcours_academique h3 {
+    width: 100%;
+    text-align: center;
+    border-top: 5px  solid rgb(255, 255, 255); /* adds a 2px black line below the h3 element */
+    margin-top: 10px; /* adds a 20px margin below the h3 element */
+    color: #4CAF50;
+}
+.line {
+  border-bottom: 5px solid rgb(250, 250, 250); /* adds a 2px black line below the h3 element */
+  margin-bottom: 50px; /* adds a 20px margin below the h3 element */
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav li {
+    float: left;
+  }
+  nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 50px;
+  }
+  section h2 {
+    margin-top: 0;
+  }
+
+  /* Footer Styles */
+  footer {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #000 ;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 0.2em;
+}
+/* tab hom*/
+  .socialmedia img:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s;
+  }
+  #tab img {
+    border: 2px solid black;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 1px;
+    margin-right: 5px;
+  }
+  .mail{
+    margin-bottom: -50px;
+
+  }
+  #tab{
+    background-color: #f2f2f2;;
+  }
+  #linked{
+    margin-top: 35px;
+  }
+#tab p {
+    margin-right: 70px;
+    color: rgb(0, 0, 0);
+}
+#parcours a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  width: 140px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 10px; /* coins arrondi */
+}
+#meni{
+  background-color: rgb(228, 200, 166);
+}
+
+#joujou {
+  border-radius: 50%;
+}
+/* Section */
+#about {
+  margin-top: -18px;
+  padding: 20px; /* Ajouter de l'espacement autour de la section */
+  background-color: #f2f2f2; /* Ajouter une couleur de fond */
+}
+
+/* Titre de section */
+#about h2 {
+  margin: 0; /* Supprimer les marges par défaut */
+  padding-bottom: 10px; /* Ajouter de l'espacement en bas */
+  border-bottom: 1px solid #3498db; /* Ajouter une bordure en bas */
+  text-align: center; /* Centrer le texte */
+}
+
+h2 {
+    margin-top: 0; /* remove the margin from the top of the h2 element */
+    color: rgb(192, 91, 44); /* set the color of the h2 element to a dark gray */
+    font-size: 2em; /* set the font size of the h2 element to 2 times the default size */
+    text-transform: uppercase; /* convert the text of the h2 element to uppercase */
+}
+
+#about p {
+    color: #555; /* set the color of the p element to a medium gray */
+    font-size: 1.2em; /* set the font size of the p element to 1.2 times the default size */
+    line-height: 1.5; /* set the line height of the p element to 1.5 times the font size */
+    text-align: justify; /* align the text of the p element to both the left and right sides */
+}
+h4 {
+  color: rgb(211, 211, 211); /* set the color of the h4 element to a dark gray */
+  font-size: 1.5em; /* set the font size of the h4 element to 1.5 times the default size */
+  text-transform: uppercase; /* convert the text of the h4 element to uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* add a subtle text shadow to the h4 element */
+  letter-spacing: 5px; /* add 2px of spacing between letters in the h4 element */
+  transition: all 0.3s ease; /* add a smooth transition to all properties */
+}
+
+
+h4:hover {
+  color: rgb(175, 16, 16); /* change the color of the h4 element to a medium gray on hover */
+  transform: rotate(-2deg) skew(5deg); /* rotate and skew the h4 element on hover */
+}
+
+#form-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+table {
+  width: 80%; /* set the table width to 80% of the parent container */
+  margin: 0 auto; /* center the table horizontally */
+  border-collapse: collapse; /* remove the default spacing between cells */
+}
+
+td {
+  text-align: center; /* center the text within the data cells */
+  padding: 20px; /* add 20px padding to the data cells */
+  border: 1px solid #ccc; /* add a 1px solid gray border to the data cells */
+}
+
+td img {
+  width: 50%; /* set the width of the images to 50% of their original size */
+  margin: 10px auto; /* center the images horizontally and add 10px margin to the top and bottom */
+}
+
+.socialmedia a {
+  display: block; /* display the link block to make the entire cell clickable */
+  text-decoration: none; /* remove the underline from the links */
+  color: black; /* set the color of the links to black */
+}
+
+#tab p {
+  margin: 10px 0; /* add 10px margin to the top and bottom of the <p> elements */
+}
+
+h3 {
+  color: darkslategray; /* sets the text color to darkslategray */
+}
+
+.percentage {
+  /* this class can be added to any element that contains the proficiency percentage */
+  font-size: 1.5em; /* increases the font size */
+  font-weight: bold; /* makes the text bold */
+  padding-left: 10px; /* adds some space between the text and the preceding element */
+}
+
+.percentage img {
+  height: 300px; /* sets the height of the image to 300 pixels */
+  width: 500px; /* sets the width of the image to 500 pixels */
+  border-radius: 10px; /* adds rounded corners to the image */
+
+}
+
+span{
+  color: rgb(0, 0, 0);
+}
+
+/*participation*/
+h3.line {
+  color: darkslategray;
+}
+
+h3.line strong {
+  font-weight: bold;
+}
+
+table#h {
+  width: 100%;
+}
+
+table#h tr.tes td {
+  text-align: center;
+}
+
+img.img-frame {
+  max-width: 100%;
+  height: auto;
+}
+table#h {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table#tab tr.socialmedia td {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 20px;
+}
+table#h tr.tes td {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+img.img-frame {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+.galerie{
+  margin:3px;
+  border: 10px solid white;
+  box-shadow: 5px 10px 5px black;
+}
+
+/*QUIZ */
+
+
+#quiz {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-left: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 2px;
+  background-color: #1f0047;
+  color: white;
+  font-size: 1.5em;
+}
+#submit-button {
+  background-color: #4CAF50; /* couleur de fond */
+  color: white; /* couleur du texte */
+  padding: 12px 20px; /* espace intérieur */
+  border: none; /* pas de bordure */
+  border-radius: 4px; /* arrondi des coins */
+  cursor: pointer; /* curseur en forme de main */
+  font-size: 1.2em; /* taille de police */
+  margin-top: 20px; /* marge en haut */
+  margin-bottom: 20px;
+}
+
+#submit-button:hover {
+  background-color: #45a049; /* couleur de fond lorsque la souris est sur le bouton */
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Testimonial */
+.testimonial {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Image */
+.logoiit {
+  width: 80px; /* Largeur de l'image */
+  height: auto; /* Hauteur automatique pour maintenir les proportions de l'image */
+  display: block; /* Afficher l'image comme un élément de bloc */
+  margin: 0 auto; /* Centrer horizontalement l'image */
+  margin-top: -70px;
+  margin-right: 320px;
+}
+#tem{
+  margin-top: 20px;
+}
